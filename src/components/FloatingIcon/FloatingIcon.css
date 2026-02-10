@@ -1,0 +1,54 @@
+/* FloatingIcon.css - small circular floating button on the right side */
+
+.floating-icon-btn {
+    position: fixed;
+    right: 18px;            /* tune horizontal position */
+    top: 45%;               /* vertically centered-ish, adjust as needed */
+    transform: translateY(-50%);
+    z-index: 9999;          /* above most content */
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: rgba(10, 14, 23, 0.75); /* dark glass */
+    border: 1px solid rgba(255,255,255,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    backdrop-filter: blur(6px);
+  }
+  
+  /* hover/active */
+  .floating-icon-btn:hover {
+    transform: translateY(-50%) scale(1.06);
+    box-shadow: 0 12px 30px rgba(122,30,108,0.15);
+    background: rgba(255,255,255,0.06);
+  }
+  
+  /* image inside */
+  .floating-icon-img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    display: block;
+  }
+  
+  /* emoji fallback styling */
+  .floating-icon-emoji {
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  /* small responsive tweak */
+  @media (max-width: 768px) {
+    .floating-icon-btn {
+      right: 12px;
+      width: 48px;
+      height: 48px;
+    }
+    .floating-icon-img,
+    .floating-icon-emoji { font-size: 20px; width: 20px; height: 20px; }
+  }
+  
