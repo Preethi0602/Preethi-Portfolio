@@ -16,21 +16,15 @@ const Experience = () => {
       logo: asuLogo,
       responsibilities: [
         'Built 2 end-to-end AI applications spanning Generative AI and deep learning, taking solutions from data ingestion and preprocessing through
-model/RAG development, evaluation, REST API integration, experiment tracking, and user-facing delivery.',
-        'Designed and implemented a 4-stage enterprise RAG pipeline using Python, LangChain, ChromaDB, Claude API, and PyMuPDF for
+model/RAG development, evaluation, REST API integration, experiment tracking, and user-facing delivery.','Designed and implemented a 4-stage enterprise RAG pipeline using Python, LangChain, ChromaDB, Claude API, and PyMuPDF for
 document ingestion, chunking, embedding generation, semantic retrieval, context assembly, and grounded answer generation with source
-attribution.',
-        'Developed reusable Python components for ingestion, chunking, vector-store operations, retriever configuration, prompt templates, model
+attribution.','Developed reusable Python components for ingestion, chunking, vector-store operations, retriever configuration, prompt templates, model
 invocation, response parsing, and evaluation, reducing duplicated implementation effort across GenAI experiments and making the architecture
-easier to extend.',
-        'mplemented configurable top-k semantic retrieval and evaluated retrieval relevance, grounding, unsupported answers, response quality,
+easier to extend.','Implemented configurable top-k semantic retrieval and evaluated retrieval relevance, grounding, unsupported answers, response quality,
 latency, prompt behavior, and failure cases; maintained prompts, configurations, architecture decisions, and experiment history in Git for
-reproducibility.',
-  'Structured the GenAI application into independent ingestion, retrieval, prompt/orchestration, and generation layers so components could be
-tested separately and later exposed through APIs or extended toward tool-using/agent-style workflows.',
-  'Built and evaluated a deep-learning pipeline on the NIH ChestX-ray14 dataset with 112K+ images and 14 pathology classes using PyTorch
-and ResNet-50, applying repeatable training/evaluation workflows and MLflow experiment tracking for model traceability.',
-  'Developed a FastAPI inference service and React/TypeScript interface for model prediction and confidence visualization, separating training,
+reproducibility.','Structured the GenAI application into independent ingestion, retrieval, prompt/orchestration, and generation layers so components could be
+tested separately and later exposed through APIs or extended toward tool-using/agent-style workflows.','Built and evaluated a deep-learning pipeline on the NIH ChestX-ray14 dataset with 112K+ images and 14 pathology classes using PyTorch
+and ResNet-50, applying repeatable training/evaluation workflows and MLflow experiment tracking model traceability.','Developed a FastAPI inference service and React/TypeScript interface for model prediction and confidence visualization, separating training,
 inference, API, and frontend components to support maintainability and containerized/cloud deployment patterns.'
   
       ]
