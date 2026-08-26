@@ -24,7 +24,7 @@ const Contact = () => {
       id: 3,
       icon: <FaMapMarkerAlt />,
       label: 'Location',
-      value: 'Tempe, AZ',
+      value: 'Houston, TX',
       link: null
     }
   ];
