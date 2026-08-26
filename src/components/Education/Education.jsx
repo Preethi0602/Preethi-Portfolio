@@ -20,7 +20,7 @@ const Education = () => {
       id: 2,
       school: 'National Institute of Technology Jamshedpur',
       degree: 'Bachelor of Technology in Electronics & Communications Engineering',
-      duration: 'Aug 2019 - May 2023',
+      duration: 'Aug 2018 - May 2022',
       logo: nitLogo,
       description:
         'Relevant coursework: Data Structures and Algorithms, Computer Networks, Object-Oriented Programming, RTOS.'
