@@ -11,20 +11,35 @@ const Experience = () => {
     {
       id: 1,
       company: 'Arizona State University',
-      role: 'Graduate Teaching Assistant',
-      duration: 'Aug 2025 - Present',
+      role: 'GEN AI Engineer',
+      duration: 'Sep 2024 - May 2026',
       logo: asuLogo,
       responsibilities: [
-        'Lead instruction for Information Assurance and Security under Prof. Stephen S. Yau. Deliver interactive sessions to 80+ students per semester.',
-        'Create customized learning materials improving student performance on security assessments. Conduct graduate research on cybersecurity frameworks for thesis work.',
-        'Provide personalized mentorship in information assurance principles.'
+        'Built 2 end-to-end AI applications spanning Generative AI and deep learning, taking solutions from data ingestion and preprocessing through
+model/RAG development, evaluation, REST API integration, experiment tracking, and user-facing delivery.',
+        'Designed and implemented a 4-stage enterprise RAG pipeline using Python, LangChain, ChromaDB, Claude API, and PyMuPDF for
+document ingestion, chunking, embedding generation, semantic retrieval, context assembly, and grounded answer generation with source
+attribution.',
+        'Developed reusable Python components for ingestion, chunking, vector-store operations, retriever configuration, prompt templates, model
+invocation, response parsing, and evaluation, reducing duplicated implementation effort across GenAI experiments and making the architecture
+easier to extend.',
+        'mplemented configurable top-k semantic retrieval and evaluated retrieval relevance, grounding, unsupported answers, response quality,
+latency, prompt behavior, and failure cases; maintained prompts, configurations, architecture decisions, and experiment history in Git for
+reproducibility.',
+  'Structured the GenAI application into independent ingestion, retrieval, prompt/orchestration, and generation layers so components could be
+tested separately and later exposed through APIs or extended toward tool-using/agent-style workflows.',
+  'Built and evaluated a deep-learning pipeline on the NIH ChestX-ray14 dataset with 112K+ images and 14 pathology classes using PyTorch
+and ResNet-50, applying repeatable training/evaluation workflows and MLflow experiment tracking for model traceability.',
+  'Developed a FastAPI inference service and React/TypeScript interface for model prediction and confidence visualization, separating training,
+inference, API, and frontend components to support maintainability and containerized/cloud deployment patterns.'
+  
       ]
     },
     {
       id: 2,
       company: 'Broadridge Financial Solutions',
       role: 'Software Developer Engineer',
-      duration: 'Jul 2023 - Jul 2024',
+      duration: 'Jul 2022 - Jul 2024',
       logo: broadridgeLogo,
       responsibilities: [
         'Engineered JavaScript and PowerShell automation scripts that reduced client report navigation time by 75% for 50,000+ financial reports, saving analysts 20+ hours per week across 10+ client accounts.',
@@ -37,7 +52,7 @@ const Experience = () => {
       id: 3,
       company: 'Broadridge Financial Solutions',
       role: 'Software Development Engineer Intern',
-      duration: 'Jan 2023 - Jun 2023',
+      duration: 'Jan 2022 - Jun 2022',
       logo: broadridgeLogo,
       responsibilities: [
         'Developed Java-based AWS Lambda functions to automate billing workflows processing 100K+ monthly transactions, reducing manual billing errors by 80% and decreasing processing time from 2 days to 4 hours.',
